@@ -1,66 +1,105 @@
-Modular Geometry Management System in C++
+Geometry Management System (C++)
 
-A modular geometry management system developed in C++ to strengthen practical understanding of Object-Oriented Programming concepts and system design. The project supports operations on both 2D and 3D geometric points through a structured multi-class architecture.
+A modular Geometry Management System developed in C++ to strengthen understanding of Object-Oriented Programming concepts and software design principles. The project supports management and manipulation of both 2D and 3D points through separate management systems while demonstrating practical implementation of abstraction, inheritance, polymorphism, operator overloading, STL containers, and file handling.
 
-Features
+--------------------------------------------------
+FEATURES
+--------------------------------------------------
 
-- Management of 2D and 3D coordinate points
-- Separate manager systems for different geometric structures
-- Mathematical operations on points
-- Operator overloading for cleaner syntax
-- Floating-point comparison using epsilon precision
-- Dynamic data handling using STL vectors
-- Interactive console-based interface
-- Modular and scalable class architecture
+• Create and manage 2D points
+• Create and manage 3D points
+• Distance calculations
+• Point arithmetic using operator overloading
+• Equality comparisons
+• Dynamic storage using STL vectors
+• Separate managers for 2D and 3D systems
+• Coordinate visualization for 2D points
+• File Read/Write support
+• Menu-driven console interface
 
-Technologies Used
+--------------------------------------------------
+OOP CONCEPTS DEMONSTRATED
+--------------------------------------------------
 
-- C++
-- Object-Oriented Programming (OOP)
-- STL Vectors
-- Operator Overloading
-- Dynamic Memory Management
+✔ Encapsulation
+✔ Abstraction
+✔ Inheritance
+✔ Polymorphism
+✔ Operator Overloading
+✔ Dynamic Memory Management
+✔ Modular Software Design
 
-OOP Concepts Implemented
+--------------------------------------------------
+TECHNOLOGIES USED
+--------------------------------------------------
 
-- Abstraction
-- Inheritance
-- Polymorphism
-- Encapsulation
-- Copy Constructors
-- Virtual Functions
+• C++
+• Standard Template Library (STL)
+• File I/O
+• Object-Oriented Programming Principles
 
-Project Structure
+--------------------------------------------------
+PROJECT STRUCTURE
+--------------------------------------------------
 
-- "Point2D" class for two-dimensional point operations
-- "Point3D" class for three-dimensional point operations
-- Abstract "Manager" base class
-- Specialized "TwoDManager" and "ThreeDManager" systems
+Geometry System
+│
+├── Point2D Class
+├── Point3D Class
+├── Abstract Manager Base Class
+├── TwoDManager
+├── ThreeDManager
+├── Graphing / Visualization Module
+└── File I/O Module
 
-Functionalities
+--------------------------------------------------
+MOTIVATION
+--------------------------------------------------
 
-- Add and manage coordinate points
-- Perform point-based mathematical operations
-- Compare floating-point values using epsilon precision
-- Store and organize geometric data dynamically
-- Execute operations through a menu-driven interface
+This project was developed after completing CS102 (Object-Oriented Programming & Design) to consolidate key OOP concepts through practical implementation before moving on to Data Structures and Algorithms (DSA).
 
-Learning Outcomes
+Rather than focusing on isolated exercises, the goal was to build a larger modular system where multiple OOP principles interact within a single project.
 
-This project helped strengthen understanding of:
+--------------------------------------------------
+LEARNING OUTCOMES
+--------------------------------------------------
 
-- Practical implementation of Object-Oriented Programming
-- System architecture and modular design
-- Operator overloading in C++
-- Floating-point precision handling
-- Scalable software structure and organization
+• Improved understanding of OOP architecture
+• Experience designing reusable class structures
+• Better understanding of abstraction and polymorphism
+• Practice with STL containers and file handling
+• Improved debugging and problem-solving skills
+• Exposure to modular software development
 
-Future Improvements
-- Template-based generic programming
-- GUI implementation
-- Support for additional geometric objects
-- Real-time graphical rendering
+--------------------------------------------------
+FUTURE IMPROVEMENTS
+--------------------------------------------------
 
-Author
+• Graphical User Interface (GUI)
+• 3D Point Visualization
+• Additional geometric shapes and operations
+• Improved graph scaling and rendering
+• Export visualization as image files
+• Unit testing framework
+
+--------------------------------------------------
+BUILD & RUN
+--------------------------------------------------
+
+Compile:
+
+g++ System.cpp -o GeometrySystem
+
+Run:
+
+./GeometrySystem
+
+(Use GeometrySystem.exe on Windows)
+
+--------------------------------------------------
+AUTHOR
+--------------------------------------------------
 
 Abdul Moaiz
+
+Developed as a personal learning project to reinforce Object-Oriented Programming concepts and prepare for advanced Computer Science coursework.
