@@ -866,9 +866,9 @@ void TwoDManager::AddTwoDList(std::vector<Point2D> List){
 void ThreeDManager::AddPoint(){
     double a,b,c;
 
-    std::cout << "PLEASE ENTER THE X COORDINATE OF 2D-POINT: ";
+    std::cout << "PLEASE ENTER THE X COORDINATE OF 3D-POINT: ";
     a=PointInputHandler();
-    std::cout << "PLEASE ENTER THE Y COORDINATE OF 2D-POINT: ";
+    std::cout << "PLEASE ENTER THE Y COORDINATE OF 3D-POINT: ";
     b=PointInputHandler();
     std::cout << "PLEASE ENTER THE Z COORDINATE OF THE 3D-POINT: ";
     c=PointInputHandler();
